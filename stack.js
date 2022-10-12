@@ -23,6 +23,7 @@ const checkIfPalindrome = (word, letters, rword) => {
 };
 
 // checkIfPalindrome(word, letters, rword);
+
 const stack = () => {
   let count = 0;
   let storage = {};
@@ -32,4 +33,7 @@ const stack = () => {
     storage[count] = value;
     count++;
   };
+
+  //pop func
+  const pop = () => {};
 };
